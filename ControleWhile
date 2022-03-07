@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class ComandoWhile {
+
+   public static void main(String[] args){
+  int X =15
+  
+       Scanner leitura=new Scanner(System.in);
+       System.out.println("digite um numero");
+       X =leitura.nexTInt();
+    do{
+   
+      System out.println("voce não tem permissão para entrar");
+      X++;
+         } while (X<18);
+    }
+}
+ 
